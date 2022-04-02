@@ -42,6 +42,6 @@ describe('Model:coin', () => {
     });
 
     const filterCoin = coin.filterKeys();
-    expect(Object.keys(filterCoin).length).to.eq(3);
+    expect(Object.keys(filterCoin).length).to.eq(2);
   });
 });
